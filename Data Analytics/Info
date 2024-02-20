@@ -1,2 +1,10 @@
 This folder holds my work related to the project I have done in Data Analytics.
 The Data Analysis Project focuses on extracting insights and patterns from a comprehensive dataset through meticulous analysis and statistical methods. This project likely involves several key phases, including data cleaning to remove inaccuracies and inconsistencies, exploratory data analysis (EDA) to understand the dataset’s characteristics. Applied various statistical and machine learning models to interpret the data’s underlying trends and correlations. The goal is to transform raw data into actionable intelligence, supporting informed decision-making and identifying opportunities for optimization and growth. Through this project, we aim to leverage data visualization tools to present findings clearly and effectively, making complex data more accessible and understandable.
+Libraries Used:
+bs4: BeautifulSoup library used for parsing HTML and XML documents.
+pandas used for data manipulation and analysis.
+numpy used for mathematical operations on arrays and matrices.
+requests used for making HTTP requests to websites.
+re a regular expression library used for pattern matching and string manipulation.
+Seaborn used for data visualization built on top of matplotlib
+Matplotlib, a plotting library for creating static, animated, and interactive visualizations in Python
