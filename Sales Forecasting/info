@@ -1,4 +1,4 @@
-This is a Kaggle Individual Private competition.
+This is a Kaggle Individual Private challenge.
 BUSINESS PROBLEM:
 A steel manufacturer seeks to enhance its strategic planning and operational efficiency by accurately forecasting quarterly sales to its 75 business customers across various industries such as Auto, Metal Fabrication, and Infrastructure. Utilizing a dataset comprising 8 quarters of sales data and relevant economic indicators, the challenge is to develop a predictive model capable of forecasting next quarter’s sales for each customer. This project aims to minimize the mean absolute error between the predicted and actual sales, enabling the manufacturer to better align production schedules, manage inventory, and optimize resource allocation.
 DATA: 
