@@ -1,0 +1,676 @@
+ID,Company,Quarter,QuickRatio,InventoryRatio,RevenueGrowth,MarketshareChange,Bond rating,Stock rating,Region,Industry,Sales
+0,CMP01,Q1,2.02,7.71,0.05,-0.04,CCC,Buy,South,Metal Fabrication,1517
+1,CMP01,Q2,2.01,4.1,0.03,0,CCC,Hold,South,Metal Fabrication,2968
+2,CMP01,Q3,2.02,6.79,0.06,-0.02,CCC,Buy,South,Metal Fabrication,1497
+3,CMP01,Q4,1.98,3.97,0.01,0.02,CCC,Buy,South,Metal Fabrication,2929
+4,CMP01,Q5,1.96,7.41,-0.07,0.02,CCC,Buy,South,Metal Fabrication,1452
+5,CMP01,Q6,1.96,2.12,-0.19,0.01,CCC,Buy,South,Metal Fabrication,2918
+6,CMP01,Q7,1.97,3.47,0.05,-0.01,CCC,Buy,South,Metal Fabrication,1460
+9,CMP02,Q1,2,5.46,-0.07,-0.02,AAA,Strong Sell,West,Infrastructure,3376
+10,CMP02,Q2,2.01,2.65,-0.01,-0.01,AA,Strong Sell,West,Infrastructure,6899
+11,CMP02,Q3,2.01,4.4,0.07,0.01,AA,Strong Sell,West,Infrastructure,3393
+12,CMP02,Q4,1.96,3.4,0.08,0.01,A,Sell,West,Infrastructure,6655
+13,CMP02,Q5,1.97,3.16,0.08,-0.02,BBB,Hold,West,Infrastructure,6783
+14,CMP02,Q6,1.98,2.82,-0.15,0.01,A,Sell,West,Infrastructure,3191
+15,CMP02,Q7,1.96,3.38,-0.12,0.02,A,Hold,West,Infrastructure,3308
+18,CMP03,Q1,0.7,,-0.08,0,BB,Hold,East,Infrastructure,3270
+19,CMP03,Q2,0.68,,0.06,0,BB,Sell,East,Infrastructure,5304
+20,CMP03,Q3,0.7,,-0.14,0,BBB,Sell,East,Infrastructure,5402
+21,CMP03,Q4,0.72,,0.01,-0.02,A,Sell,East,Infrastructure,5529
+22,CMP03,Q5,0.72,,0.05,-0.03,A,Sell,East,Infrastructure,5733
+23,CMP03,Q6,0.72,,-0.13,-0.03,A,Hold,East,Infrastructure,5391
+24,CMP03,Q7,0.71,,0.06,-0.01,BBB,Buy,East,Infrastructure,5541
+27,CMP04,Q1,2.21,6.88,0.05,-0.02,CCC,Hold,East,Infrastructure,2267
+28,CMP04,Q2,2.18,1.86,-0.07,-0.04,CCC,Buy,East,Infrastructure,4481
+29,CMP04,Q3,2.17,3.24,-0.01,-0.04,CCC,Hold,East,Infrastructure,2146
+30,CMP04,Q4,2.17,3.75,0.04,-0.04,CCC,Hold,East,Infrastructure,2153
+31,CMP04,Q5,2.17,2.4,0.02,-0.04,CCC,Hold,East,Infrastructure,4191
+32,CMP04,Q6,2.19,2.32,0.03,-0.02,CCC,Buy,East,Infrastructure,2172
+33,CMP04,Q7,2.17,6.97,0.07,0.01,CCC,Buy,East,Infrastructure,2367
+36,CMP05,Q1,2.22,3.48,-0.1,-0.03,BB,Sell,East,Infrastructure,5697
+37,CMP05,Q2,2.23,1.74,-0.08,0.02,BB,Sell,East,Infrastructure,11393
+38,CMP05,Q3,2.22,2.25,-0.07,0,BBB,Sell,East,Infrastructure,5796
+39,CMP05,Q4,2.2,1.81,-0.09,-0.02,BBB,Sell,East,Infrastructure,5645
+40,CMP05,Q5,2.22,2.96,-0.04,-0.03,BBB,Hold,East,Infrastructure,5697
+41,CMP05,Q6,2.23,1.8,0.04,0,A,Sell,East,Infrastructure,11686
+42,CMP05,Q7,2.25,2.74,-0.02,-0.03,AA,Sell,East,Infrastructure,5608
+45,CMP06,Q1,1.38,7.73,0,0,CCC,Strong Buy,West,Infrastructure,3749
+46,CMP06,Q2,1.39,5.13,0.01,-0.01,CCC,Strong Buy,West,Infrastructure,3749
+47,CMP06,Q3,1.38,4.14,0.04,-0.01,CCC,Buy,West,Infrastructure,3820
+48,CMP06,Q4,1.39,3,-0.08,0.02,CCC,Hold,West,Infrastructure,5634
+49,CMP06,Q5,1.39,3.94,0,-0.01,CCC,Buy,West,Infrastructure,3924
+50,CMP06,Q6,1.4,4.35,-0.02,-0.03,CCC,Buy,West,Infrastructure,3806
+51,CMP06,Q7,1.36,4.6,-0.1,-0.02,CCC,Buy,West,Infrastructure,3713
+54,CMP07,Q1,1.82,3.61,0.03,0,BBB,Strong Sell,West,Automobile,5565
+55,CMP07,Q2,1.83,3.1,0.01,0.01,BB,Strong Sell,West,Automobile,2738
+56,CMP07,Q3,1.84,3.29,0.05,0.01,BB,Strong Sell,West,Automobile,5420
+57,CMP07,Q4,1.83,6.9,-0.01,-0.01,BBB,Sell,West,Automobile,2738
+58,CMP07,Q5,1.83,2.62,0.03,-0.01,BBB,Hold,West,Automobile,5607
+59,CMP07,Q6,1.82,2.61,0.04,0.01,BBB,Hold,West,Automobile,5554
+60,CMP07,Q7,1.8,6.37,-0.01,0.02,BB,Hold,West,Automobile,2693
+63,CMP08,Q1,1.73,4.25,0.07,-0.03,AA,Strong Sell,East,Metal Fabrication,2270
+64,CMP08,Q2,1.74,6.18,0.06,-0.02,AA,Strong Sell,East,Metal Fabrication,1126
+65,CMP08,Q3,1.7,3,0,-0.01,AA,Strong Sell,East,Metal Fabrication,2178
+66,CMP08,Q4,1.71,3.24,0.03,-0.03,AA,Strong Sell,East,Metal Fabrication,2198
+67,CMP08,Q5,1.69,4.77,0.04,-0.01,AA,Sell,East,Metal Fabrication,2188
+68,CMP08,Q6,1.68,5.2,-0.08,0.01,AA,Hold,East,Metal Fabrication,1087
+69,CMP08,Q7,1.68,3.38,0,0,A,Sell,East,Metal Fabrication,2146
+72,CMP09,Q1,0.94,,-0.02,0.02,AAA,Buy,West,Metal Fabrication,1712
+73,CMP09,Q2,0.92,8.71,-0.18,0,AAA,Hold,West,Metal Fabrication,2462
+74,CMP09,Q3,0.92,3.63,-0.13,-0.04,AA,Sell,West,Metal Fabrication,2403
+75,CMP09,Q4,0.91,5.65,0.05,0.01,AA,Hold,West,Metal Fabrication,2364
+76,CMP09,Q5,0.91,9.79,-0.05,0,AA,Hold,West,Metal Fabrication,2349
+77,CMP09,Q6,0.9,8.29,-0.14,-0.01,AA,Hold,West,Metal Fabrication,2349
+78,CMP09,Q7,0.9,,0.06,0,AA,Sell,West,Metal Fabrication,2301
+81,CMP10,Q1,0.95,,0.04,0.02,BBB,Sell,South,Automobile,2108
+82,CMP10,Q2,0.95,,0.05,-0.03,A,Sell,South,Automobile,3154
+83,CMP10,Q3,0.94,,0.08,0,AA,Sell,South,Automobile,3134
+84,CMP10,Q4,0.95,,0,0.02,AA,Sell,South,Automobile,3107
+85,CMP10,Q5,0.93,,0.06,0.02,AA,Sell,South,Automobile,3311
+86,CMP10,Q6,0.93,21.3,-0.13,-0.01,A,Sell,South,Automobile,2927
+87,CMP10,Q7,0.95,,0.01,0.02,AA,Hold,South,Automobile,2996
+90,CMP11,Q1,1.26,1.74,-0.02,0.01,B,Strong Sell,North,Infrastructure,1444
+91,CMP11,Q2,1.25,3.5,-0.08,-0.03,B,Sell,North,Infrastructure,1435
+92,CMP11,Q3,1.26,3.42,0.07,-0.01,B,Sell,North,Infrastructure,2207
+93,CMP11,Q4,1.25,6.94,0.03,-0.03,BB,Hold,North,Infrastructure,1409
+94,CMP11,Q5,1.21,4.67,0,0,BB,Buy,North,Infrastructure,1347
+95,CMP11,Q6,1.23,7.99,0.05,0,BB,Buy,North,Infrastructure,2134
+96,CMP11,Q7,1.23,4.12,-0.03,0,BB,Buy,North,Infrastructure,1393
+99,CMP12,Q1,1.96,2.9,0,-0.02,CCC,Hold,North,Automobile,2946
+100,CMP12,Q2,1.98,2.58,0.07,0.01,CCC,Sell,North,Automobile,1455
+101,CMP12,Q3,1.97,2.35,0.05,0,CCC,Sell,North,Automobile,2809
+102,CMP12,Q4,1.99,3.27,0.03,0.01,CCC,Hold,North,Automobile,1463
+103,CMP12,Q5,1.99,2.73,0.03,-0.01,CCC,Hold,North,Automobile,2833
+104,CMP12,Q6,1.96,5.75,0.05,0,CCC,Hold,North,Automobile,1441
+105,CMP12,Q7,1.95,4.86,0.01,0,CCC,Buy,North,Automobile,2796
+108,CMP13,Q1,2,8.7,0.03,0.02,AA,Hold,North,Automobile,2946
+109,CMP13,Q2,2,2.63,0.05,0.02,AA,Hold,North,Automobile,5355
+110,CMP13,Q3,2,1.81,0,0.01,AA,Hold,North,Automobile,5636
+111,CMP13,Q4,2,2.51,0.06,0.01,AA,Buy,North,Automobile,2736
+112,CMP13,Q5,2,2.8,-0.03,0,AA,Buy,North,Automobile,2769
+113,CMP13,Q6,2.02,2.83,-0.13,0.01,AA,Buy,North,Automobile,5454
+114,CMP13,Q7,2.01,3.67,-0.1,0.01,AA,Hold,North,Automobile,2750
+117,CMP14,Q1,1.03,16.46,-0.09,0.02,BBB,Sell,North,Automobile,994
+118,CMP14,Q2,1.04,4.92,-0.08,0.01,BB,Sell,North,Automobile,1510
+119,CMP14,Q3,1.05,3.94,0.03,0,BBB,Hold,North,Automobile,1479
+120,CMP14,Q4,1.02,2.75,-0.04,-0.02,BBB,Sell,North,Automobile,1513
+121,CMP14,Q5,1.04,18.1,0.02,0,BB,Sell,North,Automobile,1008
+122,CMP14,Q6,1.05,16.81,0.07,-0.02,BB,Sell,North,Automobile,1498
+123,CMP14,Q7,1.06,7.32,-0.07,0.01,BB,Sell,North,Automobile,1549
+126,CMP15,Q1,0.82,,0.08,0.01,AA,Sell,North,Automobile,864
+127,CMP15,Q2,0.78,,-0.08,0,A,Sell,North,Automobile,1153
+128,CMP15,Q3,0.78,,-0.15,0.02,BBB,Sell,North,Automobile,1054
+129,CMP15,Q4,0.8,,-0.01,-0.01,BB,Hold,North,Automobile,1171
+130,CMP15,Q5,0.78,,0.07,0.01,BBB,Sell,North,Automobile,1244
+131,CMP15,Q6,0.75,,0.06,0.01,BBB,Hold,North,Automobile,1197
+132,CMP15,Q7,0.74,,-0.09,0,BBB,Sell,North,Automobile,1139
+135,CMP16,Q1,0.72,,-0.06,0,BBB,Sell,West,Automobile,1467
+136,CMP16,Q2,0.7,,0.05,0.01,BBB,Sell,West,Automobile,2461
+137,CMP16,Q3,0.68,,-0.12,0,A,Sell,West,Automobile,2208
+138,CMP16,Q4,0.7,,0.05,0.02,AA,Hold,West,Automobile,2432
+139,CMP16,Q5,0.66,,0.02,-0.02,AA,Hold,West,Automobile,2424
+140,CMP16,Q6,0.67,,0.07,-0.02,AA,Buy,West,Automobile,2322
+141,CMP16,Q7,0.68,,0.08,-0.03,AA,Buy,West,Automobile,2379
+144,CMP17,Q1,2.07,4.6,-0.11,0,A,Hold,East,Infrastructure,2739
+145,CMP17,Q2,2.08,3.7,0.07,-0.02,A,Hold,East,Infrastructure,5446
+146,CMP17,Q3,2.09,4.28,0,0.02,A,Buy,East,Infrastructure,2765
+147,CMP17,Q4,2.11,1.62,-0.15,0,AA,Hold,East,Infrastructure,5679
+148,CMP17,Q5,2.11,3.1,-0.04,-0.02,AA,Sell,East,Infrastructure,2888
+149,CMP17,Q6,2.1,3.31,0,-0.01,A,Sell,East,Infrastructure,2778
+150,CMP17,Q7,2.09,1.99,0.02,0,A,Hold,East,Infrastructure,5680
+153,CMP18,Q1,1.18,7.44,-0.07,0.01,A,Strong Sell,West,Automobile,5718
+154,CMP18,Q2,1.19,4.57,0.03,0,AA,Sell,West,Automobile,5636
+155,CMP18,Q3,1.17,9.53,0.02,0.02,A,Sell,West,Automobile,8378
+156,CMP18,Q4,1.19,3.3,-0.05,0.01,BBB,Sell,West,Automobile,8567
+157,CMP18,Q5,1.2,1.26,0.01,0.01,BBB,Hold,West,Automobile,5598
+158,CMP18,Q6,1.2,2.98,-0.04,-0.01,BBB,Buy,West,Automobile,8701
+159,CMP18,Q7,1.2,7.4,0.05,-0.03,A,Buy,West,Automobile,5749
+162,CMP19,Q1,1.32,7.9,0.07,-0.03,B,Buy,West,Automobile,2914
+163,CMP19,Q2,1.31,2.66,-0.2,0.01,BB,Hold,West,Automobile,2626
+164,CMP19,Q3,1.31,2.31,-0.13,0,BB,Hold,West,Automobile,2699
+165,CMP19,Q4,1.28,3.83,-0.13,-0.01,BBB,Buy,West,Automobile,2563
+166,CMP19,Q5,1.28,5.13,-0.09,0,BB,Buy,West,Automobile,2648
+167,CMP19,Q6,1.27,5.37,-0.01,0.02,BB,Buy,West,Automobile,2536
+168,CMP19,Q7,1.27,4.38,-0.03,-0.04,BBB,Hold,West,Automobile,2625
+171,CMP20,Q1,2.35,6.2,0.03,0.02,AA,Strong Buy,East,Infrastructure,5015
+172,CMP20,Q2,2.37,2.44,0.03,0.02,A,Buy,East,Infrastructure,9638
+173,CMP20,Q3,2.39,2.35,0.05,0.01,A,Buy,East,Infrastructure,5026
+174,CMP20,Q4,2.37,2.67,-0.1,-0.04,A,Hold,East,Infrastructure,4984
+175,CMP20,Q5,2.39,2.18,0,-0.02,A,Sell,East,Infrastructure,5037
+176,CMP20,Q6,2.36,1.87,-0.04,0.01,AA,Sell,East,Infrastructure,9806
+177,CMP20,Q7,2.36,3.13,-0.03,0.01,AA,Sell,East,Infrastructure,4987
+180,CMP21,Q1,1.51,4.6,-0.11,0.02,AA,Buy,East,Infrastructure,2157
+181,CMP21,Q2,1.53,4.73,-0.13,0,AA,Buy,East,Infrastructure,1115
+182,CMP21,Q3,1.53,3.32,-0.05,-0.01,AA,Buy,East,Infrastructure,2185
+183,CMP21,Q4,1.54,3.63,0.08,-0.02,A,Buy,East,Infrastructure,2227
+184,CMP21,Q5,1.52,3.22,0.02,-0.02,BBB,Hold,East,Infrastructure,2241
+185,CMP21,Q6,1.54,4.92,-0.02,-0.01,A,Hold,East,Infrastructure,2301
+186,CMP21,Q7,1.52,5.32,0.06,0,A,Sell,East,Infrastructure,2277
+189,CMP22,Q1,2.4,4.59,0.05,-0.03,AA,Strong Buy,East,Automobile,1860
+190,CMP22,Q2,2.41,2.6,-0.15,0,AA,Strong Buy,East,Automobile,1676
+191,CMP22,Q3,2.4,2.16,0.04,0,AA,Strong Buy,East,Automobile,3315
+192,CMP22,Q4,2.41,1.95,0.04,0.01,AA,Strong Buy,East,Automobile,1689
+193,CMP22,Q5,2.42,4.19,0.08,0.01,A,Strong Buy,East,Automobile,1696
+194,CMP22,Q6,2.44,2.35,-0.08,-0.02,AA,Strong Buy,East,Automobile,1693
+195,CMP22,Q7,2.45,1.51,-0.13,-0.01,AA,Buy,East,Automobile,3435
+198,CMP23,Q1,2.38,4.53,-0.01,0,AAA,Strong Sell,East,Metal Fabrication,1433
+199,CMP23,Q2,2.36,1.79,-0.03,0.02,AAA,Strong Sell,East,Metal Fabrication,2800
+200,CMP23,Q3,2.37,2.41,-0.09,0.01,AA,Strong Sell,East,Metal Fabrication,1400
+201,CMP23,Q4,2.36,1.8,-0.08,0.01,AA,Strong Sell,East,Metal Fabrication,1421
+202,CMP23,Q5,2.32,2.4,-0.07,-0.02,A,Strong Sell,East,Metal Fabrication,1397
+203,CMP23,Q6,2.3,2.34,0.04,-0.01,AA,Strong Sell,East,Metal Fabrication,1399
+204,CMP23,Q7,2.26,1.89,-0.03,-0.02,AA,Sell,East,Metal Fabrication,2813
+207,CMP24,Q1,0.73,,0,0.01,AA,Strong Buy,South,Infrastructure,1797
+208,CMP24,Q2,0.7,,-0.03,-0.01,AA,Buy,South,Infrastructure,2488
+209,CMP24,Q3,0.67,,0.01,0.01,A,Buy,South,Infrastructure,2566
+210,CMP24,Q4,0.65,,-0.06,0.02,AA,Buy,South,Infrastructure,2471
+211,CMP24,Q5,0.64,,-0.07,-0.01,A,Buy,South,Infrastructure,2378
+212,CMP24,Q6,0.64,,-0.01,-0.01,A,Hold,South,Infrastructure,2491
+213,CMP24,Q7,0.62,,0.04,0,A,Hold,South,Infrastructure,2349
+216,CMP25,Q1,1.58,5.15,0.01,0.01,A,Hold,South,Automobile,4135
+217,CMP25,Q2,1.58,3.43,-0.01,0,AA,Sell,South,Automobile,4039
+218,CMP25,Q3,1.56,3.42,0.07,0,AA,Hold,South,Automobile,4000
+219,CMP25,Q4,1.57,4.36,-0.05,0.01,A,Buy,South,Automobile,2014
+220,CMP25,Q5,1.58,2.37,-0.12,-0.02,A,Buy,South,Automobile,3960
+221,CMP25,Q6,1.54,2.52,-0.11,0.02,A,Hold,South,Automobile,3951
+222,CMP25,Q7,1.53,4.19,-0.05,0.01,AA,Sell,South,Automobile,3884
+225,CMP26,Q1,2.03,6,-0.01,-0.03,CCC,Strong Buy,South,Automobile,1482
+226,CMP26,Q2,2.02,3.66,0.08,0,CCC,Strong Buy,South,Automobile,3056
+227,CMP26,Q3,2.03,6.98,0.08,0,CCC,Buy,South,Automobile,1482
+228,CMP26,Q4,2.05,3.92,0.05,-0.05,CCC,Buy,South,Automobile,2881
+229,CMP26,Q5,2.06,6.33,0.01,-0.03,CCC,Hold,South,Automobile,1504
+230,CMP26,Q6,2.08,2.96,0,0.01,CCC,Buy,South,Automobile,3027
+231,CMP26,Q7,2.1,5.37,0.06,-0.01,CCC,Hold,South,Automobile,1533
+234,CMP27,Q1,1.71,4.23,0.04,0,AAA,Strong Buy,South,Metal Fabrication,8609
+235,CMP27,Q2,1.73,5.5,0.02,0,AAA,Strong Buy,South,Metal Fabrication,4244
+236,CMP27,Q3,1.74,2.73,0,0.02,AAA,Strong Buy,South,Metal Fabrication,8739
+237,CMP27,Q4,1.75,3.12,0.05,0,AA,Strong Buy,South,Metal Fabrication,8745
+238,CMP27,Q5,1.76,4,0.06,0.01,AA,Strong Buy,South,Metal Fabrication,8690
+239,CMP27,Q6,1.77,4.53,0.04,-0.02,AA,Strong Buy,South,Metal Fabrication,4342
+240,CMP27,Q7,1.78,3,0.02,0.02,A,Buy,South,Metal Fabrication,8717
+243,CMP28,Q1,2.39,5.1,0.08,0.01,BB,Strong Sell,East,Infrastructure,5323
+244,CMP28,Q2,2.4,2.49,-0.06,-0.02,BB,Sell,East,Infrastructure,5094
+245,CMP28,Q3,2.37,1.54,-0.14,0,BB,Sell,East,Infrastructure,9829
+246,CMP28,Q4,2.38,2.94,0.05,0.02,BBB,Hold,East,Infrastructure,4775
+247,CMP28,Q5,2.4,2.77,0.03,-0.01,A,Sell,East,Infrastructure,4903
+248,CMP28,Q6,2.42,2.7,0.07,0.01,BBB,Sell,East,Infrastructure,5127
+249,CMP28,Q7,2.42,2.21,-0.02,0.01,BB,Hold,East,Infrastructure,9827
+252,CMP29,Q1,2.32,4.94,0.08,0,AA,Hold,South,Metal Fabrication,5584
+253,CMP29,Q2,2.34,2.35,0.05,0.02,AA,Buy,South,Metal Fabrication,9991
+254,CMP29,Q3,2.36,2.28,0.07,0.01,AA,Buy,South,Metal Fabrication,5102
+255,CMP29,Q4,2.38,4.2,0,0.02,AA,Buy,South,Metal Fabrication,5146
+256,CMP29,Q5,2.39,2.18,0.05,0.02,AA,Hold,South,Metal Fabrication,10028
+257,CMP29,Q6,2.4,1.85,0,0,AA,Buy,South,Metal Fabrication,5189
+258,CMP29,Q7,2.37,1.97,-0.16,0.01,A,Hold,South,Metal Fabrication,5124
+261,CMP30,Q1,1.41,5.1,-0.08,0.01,CCC,Sell,South,Automobile,6981
+262,CMP30,Q2,1.4,4.9,-0.01,-0.02,CCC,Sell,South,Automobile,6930
+263,CMP30,Q3,1.37,5.87,0,0,CCC,Hold,South,Automobile,6608
+264,CMP30,Q4,1.37,3.96,0.03,-0.03,CCC,Buy,South,Automobile,6824
+265,CMP30,Q5,1.37,6.95,0.07,-0.04,CCC,Buy,South,Automobile,6681
+266,CMP30,Q6,1.35,5.28,0.04,-0.04,CCC,Buy,South,Automobile,6637
+267,CMP30,Q7,1.37,5.45,0.08,-0.03,CCC,Buy,South,Automobile,10247
+270,CMP31,Q1,2.32,3.86,-0.05,-0.02,A,Sell,West,Infrastructure,2914
+271,CMP31,Q2,2.28,1.8,0.03,-0.03,A,Sell,West,Infrastructure,5705
+272,CMP31,Q3,2.26,2.52,-0.02,-0.02,A,Hold,West,Infrastructure,2856
+273,CMP31,Q4,2.27,2.6,0.05,-0.03,AA,Buy,West,Infrastructure,2851
+274,CMP31,Q5,2.27,2.92,0.01,0,AA,Buy,West,Infrastructure,2779
+275,CMP31,Q6,2.24,3.24,0.05,0,AA,Buy,West,Infrastructure,5700
+276,CMP31,Q7,2.24,3.62,0,0.01,A,Hold,West,Infrastructure,2813
+279,CMP32,Q1,1.94,6.46,-0.07,0,BB,Buy,North,Automobile,1628
+280,CMP32,Q2,1.94,2.59,0.08,-0.01,BB,Buy,North,Automobile,3220
+281,CMP32,Q3,1.95,2.59,-0.06,-0.02,BB,Buy,North,Automobile,1684
+282,CMP32,Q4,1.96,3.66,-0.01,-0.01,BB,Buy,North,Automobile,3261
+283,CMP32,Q5,1.96,9.26,0.07,-0.04,BB,Buy,North,Automobile,1644
+284,CMP32,Q6,1.92,2.73,0.07,0,BB,Hold,North,Automobile,3408
+285,CMP32,Q7,1.92,2.7,0.08,-0.02,BB,Sell,North,Automobile,3218
+288,CMP33,Q1,1.83,3.6,-0.07,0.01,B,Hold,South,Metal Fabrication,7522
+289,CMP33,Q2,1.85,2.78,0.02,-0.03,BB,Buy,South,Metal Fabrication,3870
+290,CMP33,Q3,1.86,2.7,0.05,0.02,BB,Hold,South,Metal Fabrication,7892
+291,CMP33,Q4,1.86,3.31,-0.05,-0.01,BB,Sell,South,Metal Fabrication,3891
+292,CMP33,Q5,1.83,3.91,0.03,0.02,BB,Sell,South,Metal Fabrication,7476
+293,CMP33,Q6,1.84,2.19,0.02,-0.01,BB,Sell,South,Metal Fabrication,7635
+294,CMP33,Q7,1.84,4.68,0.06,0.01,BBB,Sell,South,Metal Fabrication,3849
+297,CMP34,Q1,0.92,,-0.04,-0.02,BB,Strong Sell,East,Automobile,1316
+298,CMP34,Q2,0.93,,-0.02,-0.02,BB,Strong Sell,East,Automobile,2040
+299,CMP34,Q3,0.9,12.91,-0.13,0.01,BB,Strong Sell,East,Automobile,1965
+300,CMP34,Q4,0.89,,0.04,0,BB,Strong Sell,East,Automobile,1926
+301,CMP34,Q5,0.86,,-0.01,-0.01,BBB,Strong Sell,East,Automobile,2138
+302,CMP34,Q6,0.86,,-0.06,-0.01,A,Strong Sell,East,Automobile,1955
+303,CMP34,Q7,0.86,,-0.08,0,AA,Sell,East,Automobile,2090
+306,CMP35,Q1,1.76,3.38,-0.02,-0.02,BBB,Buy,East,Infrastructure,3733
+307,CMP35,Q2,1.76,4,0.04,0.02,BBB,Buy,East,Infrastructure,1822
+308,CMP35,Q3,1.73,5.18,0.04,0.01,A,Buy,East,Infrastructure,3804
+309,CMP35,Q4,1.75,2.59,0.04,-0.01,BBB,Buy,East,Infrastructure,3741
+310,CMP35,Q5,1.74,4.53,-0.03,-0.04,A,Buy,East,Infrastructure,1801
+311,CMP35,Q6,1.75,3.53,-0.07,0,BBB,Buy,East,Infrastructure,3661
+312,CMP35,Q7,1.74,2.83,-0.09,0,BB,Buy,East,Infrastructure,3523
+315,CMP36,Q1,2.24,5.72,0.07,-0.02,BBB,Buy,South,Metal Fabrication,2146
+316,CMP36,Q2,2.25,1.92,-0.04,0.01,BBB,Buy,South,Metal Fabrication,4052
+317,CMP36,Q3,2.26,3.9,0.04,0,BB,Hold,South,Metal Fabrication,2113
+318,CMP36,Q4,2.25,2.73,-0.08,0.02,BB,Sell,South,Metal Fabrication,1984
+319,CMP36,Q5,2.24,2.47,-0.07,0,BB,Hold,South,Metal Fabrication,1917
+320,CMP36,Q6,2.25,2.96,0.04,0,BB,Buy,South,Metal Fabrication,3964
+321,CMP36,Q7,2.24,2.98,-0.02,0.01,BB,Buy,South,Metal Fabrication,1976
+324,CMP37,Q1,1.81,5.73,-0.13,0.02,B,Hold,North,Metal Fabrication,1890
+325,CMP37,Q2,1.82,2.63,0.05,0,B,Hold,North,Metal Fabrication,3831
+326,CMP37,Q3,1.8,3.8,0.05,0.01,B,Buy,North,Metal Fabrication,3671
+327,CMP37,Q4,1.8,4.46,-0.08,-0.03,B,Buy,North,Metal Fabrication,1879
+328,CMP37,Q5,1.82,2.87,-0.09,-0.03,B,Hold,North,Metal Fabrication,3684
+329,CMP37,Q6,1.82,2.99,-0.17,0,B,Sell,North,Metal Fabrication,1900
+330,CMP37,Q7,1.79,2.89,-0.04,0.02,BB,Sell,North,Metal Fabrication,3801
+333,CMP38,Q1,0.99,,0.04,0.02,A,Buy,South,Infrastructure,917
+334,CMP38,Q2,1,5.92,-0.15,-0.01,AA,Buy,South,Infrastructure,1412
+335,CMP38,Q3,1.02,5.27,0.07,-0.04,AA,Buy,South,Infrastructure,1359
+336,CMP38,Q4,1.02,2.57,-0.15,-0.01,AA,Buy,South,Infrastructure,1356
+337,CMP38,Q5,1.03,5.53,-0.11,-0.02,AA,Hold,South,Infrastructure,927
+338,CMP38,Q6,1,3.81,0,-0.01,AA,Buy,South,Infrastructure,1328
+339,CMP38,Q7,1.02,4.24,-0.08,0.01,AA,Buy,South,Infrastructure,908
+342,CMP39,Q1,1.44,6.53,0.01,-0.02,AAA,Hold,South,Infrastructure,4256
+343,CMP39,Q2,1.45,3.19,-0.05,0.02,AAA,Buy,South,Infrastructure,4282
+344,CMP39,Q3,1.42,3.72,0.03,0.02,AAA,Hold,South,Infrastructure,4278
+345,CMP39,Q4,1.43,4.15,0.05,-0.01,AAA,Hold,South,Infrastructure,4304
+346,CMP39,Q5,1.41,4.6,-0.08,0.01,AAA,Buy,South,Infrastructure,4079
+347,CMP39,Q6,1.37,2.75,-0.16,-0.04,AAA,Buy,South,Infrastructure,4035
+348,CMP39,Q7,1.34,7.27,-0.03,0,AA,Buy,South,Infrastructure,3938
+351,CMP40,Q1,2.48,4.24,0.02,0.01,AA,Hold,West,Automobile,4819
+352,CMP40,Q2,2.47,2.79,0.01,0,AA,Buy,West,Automobile,4397
+353,CMP40,Q3,2.48,2.38,0.01,0.02,A,Buy,West,Automobile,8736
+354,CMP40,Q4,2.48,1.92,0.05,-0.02,BBB,Hold,West,Automobile,4471
+355,CMP40,Q5,2.49,2.54,-0.05,0.01,A,Hold,West,Automobile,4489
+356,CMP40,Q6,2.48,4.5,0.07,0,A,Hold,West,Automobile,4893
+357,CMP40,Q7,2.45,2.44,-0.09,0.01,A,Sell,West,Automobile,4499
+360,CMP41,Q1,1.84,3.5,0.08,-0.02,CCC,Buy,East,Infrastructure,6680
+361,CMP41,Q2,1.84,3.7,0.04,-0.02,CCC,Buy,East,Infrastructure,3141
+362,CMP41,Q3,1.86,3,0.01,0.02,CCC,Buy,East,Infrastructure,6371
+363,CMP41,Q4,1.88,2.87,-0.16,0,CCC,Buy,East,Infrastructure,3209
+364,CMP41,Q5,1.9,3.19,0.05,0.01,CCC,Hold,East,Infrastructure,6591
+365,CMP41,Q6,1.88,4.81,-0.02,-0.02,CCC,Buy,East,Infrastructure,3209
+366,CMP41,Q7,1.85,3.54,-0.04,0.01,CCC,Hold,East,Infrastructure,6311
+369,CMP42,Q1,2.42,2.76,-0.15,0.01,BBB,Sell,West,Automobile,3511
+370,CMP42,Q2,2.42,2.85,0.08,0.01,BBB,Sell,West,Automobile,3444
+371,CMP42,Q3,2.44,2.29,0.02,0.02,A,Hold,West,Automobile,7049
+372,CMP42,Q4,2.43,2.12,0.08,-0.01,A,Sell,West,Automobile,3526
+373,CMP42,Q5,2.41,3.71,0,0,BBB,Sell,West,Automobile,3497
+374,CMP42,Q6,2.39,1.91,0.05,0.01,A,Sell,West,Automobile,6844
+375,CMP42,Q7,2.39,3.77,0.05,0.01,AA,Sell,West,Automobile,3511
+378,CMP43,Q1,1.79,3.69,0.01,-0.01,AAA,Sell,North,Metal Fabrication,5342
+379,CMP43,Q2,1.8,3.48,0,-0.01,AAA,Sell,North,Metal Fabrication,2711
+380,CMP43,Q3,1.81,3.28,0.03,0.01,AAA,Hold,North,Metal Fabrication,5555
+381,CMP43,Q4,1.81,3.79,0.08,0,AAA,Buy,North,Metal Fabrication,5441
+382,CMP43,Q5,1.8,3.86,0.03,-0.03,AA,Buy,North,Metal Fabrication,2711
+383,CMP43,Q6,1.78,3.4,-0.05,0.01,AA,Buy,North,Metal Fabrication,5454
+384,CMP43,Q7,1.76,3.77,0.05,-0.03,AA,Buy,North,Metal Fabrication,5303
+387,CMP44,Q1,0.81,,-0.04,0.01,CCC,Strong Sell,West,Automobile,2724
+388,CMP44,Q2,0.82,,0.06,0.02,CCC,Sell,West,Automobile,4443
+389,CMP44,Q3,0.84,,-0.01,0,CCC,Sell,West,Automobile,4432
+390,CMP44,Q4,0.84,,0.01,0.01,CCC,Sell,West,Automobile,4408
+391,CMP44,Q5,0.85,,-0.05,-0.01,CCC,Hold,West,Automobile,4376
+392,CMP44,Q6,0.86,,0.03,0.01,CCC,Sell,West,Automobile,4558
+393,CMP44,Q7,0.84,,0.06,0.01,CCC,Hold,West,Automobile,4523
+396,CMP45,Q1,1.72,4.31,0.05,0.01,BBB,Buy,East,Metal Fabrication,4922
+397,CMP45,Q2,1.74,3.93,-0.07,0.01,BB,Buy,East,Metal Fabrication,2441
+398,CMP45,Q3,1.75,4.55,0.02,0,BBB,Buy,East,Metal Fabrication,4886
+399,CMP45,Q4,1.74,2.3,-0.1,0.02,A,Hold,East,Metal Fabrication,4932
+400,CMP45,Q5,1.74,3.1,-0.04,-0.03,AA,Sell,East,Metal Fabrication,2441
+401,CMP45,Q6,1.74,2.51,-0.13,0.01,A,Hold,East,Metal Fabrication,4785
+402,CMP45,Q7,1.76,4.14,-0.05,-0.03,BBB,Buy,East,Metal Fabrication,2469
+405,CMP46,Q1,2.21,6.27,0.05,0.01,A,Strong Sell,West,Infrastructure,1852
+406,CMP46,Q2,2.18,2.3,-0.02,0,A,Sell,West,Infrastructure,3465
+407,CMP46,Q3,2.14,1.75,-0.12,-0.03,BBB,Hold,West,Infrastructure,1676
+408,CMP46,Q4,2.16,2.95,-0.07,0.01,BB,Sell,West,Infrastructure,1691
+409,CMP46,Q5,2.17,2.1,-0.12,-0.02,BBB,Hold,West,Infrastructure,1782
+410,CMP46,Q6,2.14,2.77,0.02,0,BB,Buy,West,Infrastructure,3332
+411,CMP46,Q7,2.15,3.21,-0.02,0.01,BB,Buy,West,Infrastructure,1683
+414,CMP47,Q1,1.38,7.37,0,0,BB,Sell,South,Metal Fabrication,1804
+415,CMP47,Q2,1.37,2.83,-0.12,0,BB,Sell,South,Metal Fabrication,1774
+416,CMP47,Q3,1.35,3.6,-0.04,-0.03,BBB,Sell,South,Metal Fabrication,1778
+417,CMP47,Q4,1.32,4.77,0.01,0.01,BBB,Sell,South,Metal Fabrication,1697
+418,CMP47,Q5,1.31,2.98,-0.09,-0.03,BBB,Sell,South,Metal Fabrication,1694
+419,CMP47,Q6,1.31,3.68,-0.04,-0.05,BBB,Hold,South,Metal Fabrication,1650
+420,CMP47,Q7,1.29,4.39,0.07,-0.01,BBB,Buy,South,Metal Fabrication,2465
+423,CMP48,Q1,2.06,7.62,-0.03,0.02,CCC,Sell,West,Infrastructure,2097
+424,CMP48,Q2,2.06,3.86,0.02,0.02,CCC,Sell,West,Infrastructure,4163
+425,CMP48,Q3,2.05,3.32,0.08,0.02,CCC,Sell,West,Infrastructure,4258
+426,CMP48,Q4,2.06,2.45,0.06,-0.01,CCC,Hold,West,Infrastructure,2097
+427,CMP48,Q5,2.05,2.17,0.06,0.01,CCC,Hold,West,Infrastructure,4206
+428,CMP48,Q6,2.06,1.96,-0.08,0,CCC,Hold,West,Infrastructure,2097
+429,CMP48,Q7,2.04,8.68,0.04,0.02,CCC,Hold,West,Infrastructure,2077
+432,CMP49,Q1,1.81,3.78,0.04,-0.01,CCC,Buy,South,Metal Fabrication,6007
+433,CMP49,Q2,1.82,2.71,-0.06,-0.02,CCC,Buy,South,Metal Fabrication,2961
+434,CMP49,Q3,1.78,1.86,-0.11,-0.01,CCC,Hold,South,Metal Fabrication,5889
+435,CMP49,Q4,1.79,3.74,0.06,0.01,CCC,Hold,South,Metal Fabrication,2912
+436,CMP49,Q5,1.74,2.65,-0.15,-0.03,CCC,Buy,South,Metal Fabrication,5535
+437,CMP49,Q6,1.71,3.42,-0.11,-0.04,CCC,Buy,South,Metal Fabrication,2782
+438,CMP49,Q7,1.71,4.53,0.04,0,CCC,Hold,South,Metal Fabrication,5716
+441,CMP50,Q1,0.86,,0.08,0.01,AA,Hold,South,Automobile,1186
+442,CMP50,Q2,0.86,,-0.12,-0.01,AA,Buy,South,Automobile,1588
+443,CMP50,Q3,0.86,,-0.1,-0.01,AA,Buy,South,Automobile,1538
+444,CMP50,Q4,0.83,,0.03,0.02,A,Buy,South,Automobile,1599
+445,CMP50,Q5,0.84,,0.06,0,BBB,Hold,South,Automobile,1775
+446,CMP50,Q6,0.81,,0.08,0.01,BB,Buy,South,Automobile,1681
+447,CMP50,Q7,0.78,,0.05,0.02,BB,Buy,South,Automobile,1692
+450,CMP51,Q1,1.84,3.68,0.02,0.01,AA,Buy,East,Automobile,3187
+451,CMP51,Q2,1.84,2.9,-0.12,-0.02,AA,Hold,East,Automobile,1571
+452,CMP51,Q3,1.84,4.32,0.08,0.02,AA,Sell,East,Automobile,3228
+453,CMP51,Q4,1.85,2.74,-0.09,0,AA,Hold,East,Automobile,1580
+454,CMP51,Q5,1.84,2.21,-0.04,-0.02,AA,Sell,East,Automobile,3123
+455,CMP51,Q6,1.84,4.72,0.03,0.02,AA,Sell,East,Automobile,1571
+456,CMP51,Q7,1.83,4.66,-0.01,0,AA,Sell,East,Automobile,3109
+459,CMP52,Q1,1.88,9.42,0.06,-0.03,BBB,Buy,South,Metal Fabrication,1333
+460,CMP52,Q2,1.86,1.94,-0.11,0.01,BBB,Buy,South,Metal Fabrication,2429
+461,CMP52,Q3,1.86,3.54,0.06,0,BBB,Buy,South,Metal Fabrication,2414
+462,CMP52,Q4,1.85,3.88,0.06,0,A,Buy,South,Metal Fabrication,1208
+463,CMP52,Q5,1.82,4.42,0.06,0.01,A,Buy,South,Metal Fabrication,2410
+464,CMP52,Q6,1.83,2.21,0.02,-0.01,AA,Buy,South,Metal Fabrication,2367
+465,CMP52,Q7,1.81,4.18,0,0.01,AA,Hold,South,Metal Fabrication,1182
+468,CMP53,Q1,1.91,9.54,0.07,-0.04,AA,Buy,South,Metal Fabrication,1003
+469,CMP53,Q2,1.88,2.81,0.05,-0.01,AA,Hold,South,Metal Fabrication,1903
+470,CMP53,Q3,1.89,1.91,-0.07,-0.02,A,Hold,South,Metal Fabrication,1810
+471,CMP53,Q4,1.89,2.2,-0.1,-0.01,BBB,Sell,South,Metal Fabrication,930
+472,CMP53,Q5,1.87,2.27,0.03,-0.01,A,Hold,South,Metal Fabrication,1778
+473,CMP53,Q6,1.87,4.13,0.06,-0.03,AA,Buy,South,Metal Fabrication,920
+474,CMP53,Q7,1.88,4.31,0.03,0,A,Buy,South,Metal Fabrication,1809
+477,CMP54,Q1,1.14,24.29,0.05,0.01,BBB,Buy,West,Automobile,3904
+478,CMP54,Q2,1.15,3.3,-0.09,0.02,A,Buy,West,Automobile,5680
+479,CMP54,Q3,1.16,1.62,0,0.02,BBB,Buy,West,Automobile,3725
+480,CMP54,Q4,1.15,4.43,0.04,-0.01,A,Hold,West,Automobile,5437
+481,CMP54,Q5,1.13,4.5,0,0.02,BBB,Sell,West,Automobile,3699
+482,CMP54,Q6,1.13,3.76,-0.11,-0.03,BBB,Sell,West,Automobile,5624
+483,CMP54,Q7,1.12,5.2,-0.03,0,BB,Sell,West,Automobile,3734
+486,CMP55,Q1,0.53,,0.03,-0.02,A,Buy,East,Infrastructure,1582
+487,CMP55,Q2,0.51,,-0.18,-0.01,BBB,Buy,East,Infrastructure,2207
+488,CMP55,Q3,0.5,,0.05,0.01,BB,Hold,East,Infrastructure,2408
+489,CMP55,Q4,0.52,,0.04,-0.02,BB,Sell,East,Infrastructure,2473
+490,CMP55,Q5,0.54,,-0.16,0,BB,Hold,East,Infrastructure,2300
+491,CMP55,Q6,0.54,,-0.07,0.01,BBB,Sell,East,Infrastructure,2549
+492,CMP55,Q7,0.53,,-0.02,0.02,A,Hold,East,Infrastructure,2428
+495,CMP56,Q1,1.38,6.82,0.01,0,AAA,Hold,North,Infrastructure,3120
+496,CMP56,Q2,1.37,5.84,0.06,0.02,AA,Sell,North,Infrastructure,3041
+497,CMP56,Q3,1.39,4.13,-0.01,0.01,AA,Hold,North,Infrastructure,3097
+498,CMP56,Q4,1.4,5.32,-0.02,0,A,Sell,North,Infrastructure,3050
+499,CMP56,Q5,1.38,3.26,-0.06,0,BBB,Sell,North,Infrastructure,4602
+500,CMP56,Q6,1.4,5.69,0.06,0.02,BB,Hold,North,Infrastructure,3182
+501,CMP56,Q7,1.39,1.86,-0.19,-0.04,BB,Buy,North,Infrastructure,3156
+504,CMP57,Q1,2.41,4.67,-0.01,0,BB,Buy,South,Metal Fabrication,1701
+505,CMP57,Q2,2.42,1.87,0.07,-0.03,BB,Hold,South,Metal Fabrication,3431
+506,CMP57,Q3,2.42,2.26,-0.07,0.02,BB,Hold,South,Metal Fabrication,1726
+507,CMP57,Q4,2.42,2.71,-0.11,0,BBB,Buy,South,Metal Fabrication,1767
+508,CMP57,Q5,2.42,2.74,0.07,0.01,BBB,Hold,South,Metal Fabrication,1709
+509,CMP57,Q6,2.44,1.83,-0.05,-0.01,BBB,Buy,South,Metal Fabrication,1700
+510,CMP57,Q7,2.42,2.1,0.06,-0.01,A,Hold,South,Metal Fabrication,3272
+513,CMP58,Q1,0.71,,0.05,-0.01,CCC,Strong Sell,South,Automobile,2592
+514,CMP58,Q2,0.69,,-0.04,0.02,CCC,Strong Sell,South,Automobile,3824
+515,CMP58,Q3,0.7,,-0.1,0,CCC,Sell,South,Automobile,3974
+516,CMP58,Q4,0.68,,0.01,0.01,CCC,Hold,South,Automobile,3730
+517,CMP58,Q5,0.68,,0.08,0.01,CCC,Hold,South,Automobile,4081
+518,CMP58,Q6,0.69,,0.01,-0.01,CCC,Buy,South,Automobile,4004
+519,CMP58,Q7,0.67,,0.07,-0.02,CCC,Buy,South,Automobile,4039
+522,CMP59,Q1,2.38,3.86,-0.1,0.01,BB,Strong Buy,North,Metal Fabrication,1992
+523,CMP59,Q2,2.37,1.97,-0.12,0,BB,Buy,North,Metal Fabrication,2062
+524,CMP59,Q3,2.38,1.61,0,-0.02,BB,Buy,North,Metal Fabrication,3950
+525,CMP59,Q4,2.33,2.63,-0.02,0.01,BBB,Hold,North,Metal Fabrication,1979
+526,CMP59,Q5,2.35,2.77,0.07,0,A,Buy,North,Metal Fabrication,1967
+527,CMP59,Q6,2.36,2.82,0.05,-0.03,BBB,Hold,North,Metal Fabrication,1908
+528,CMP59,Q7,2.37,3.37,0.06,-0.02,BB,Sell,North,Metal Fabrication,3941
+531,CMP60,Q1,0.91,,-0.04,0,BB,Buy,West,Infrastructure,1413
+532,CMP60,Q2,0.9,,-0.07,-0.03,BB,Buy,West,Infrastructure,2057
+533,CMP60,Q3,0.9,,0.04,0,BB,Hold,West,Infrastructure,2167
+534,CMP60,Q4,0.92,,-0.01,-0.01,BB,Buy,West,Infrastructure,2285
+535,CMP60,Q5,0.9,,0.02,0.01,BB,Hold,West,Infrastructure,2225
+536,CMP60,Q6,0.92,,-0.06,0.02,BB,Buy,West,Infrastructure,2203
+537,CMP60,Q7,0.94,14.87,-0.1,-0.02,BB,Buy,West,Infrastructure,2202
+540,CMP61,Q1,2.45,4.67,0.08,0,B,Buy,West,Infrastructure,5040
+541,CMP61,Q2,2.47,2.54,-0.04,0.01,B,Buy,West,Infrastructure,4663
+542,CMP61,Q3,2.47,2,0.05,-0.04,B,Hold,West,Infrastructure,9237
+543,CMP61,Q4,2.47,3.14,0.03,0,B,Hold,West,Infrastructure,4720
+544,CMP61,Q5,2.47,2.64,0.07,0,B,Hold,West,Infrastructure,4589
+545,CMP61,Q6,2.49,2.4,0.04,-0.01,B,Buy,West,Infrastructure,4454
+546,CMP61,Q7,2.48,2.24,0.03,0.02,B,Buy,West,Infrastructure,9252
+549,CMP62,Q1,1.87,6.63,-0.09,0,AA,Strong Sell,East,Infrastructure,1662
+550,CMP62,Q2,1.88,3.1,0.07,0.02,A,Strong Sell,East,Infrastructure,3327
+551,CMP62,Q3,1.86,1.9,-0.07,-0.03,AA,Sell,East,Infrastructure,3300
+552,CMP62,Q4,1.85,2.1,-0.15,0.02,A,Sell,East,Infrastructure,1645
+553,CMP62,Q5,1.84,1.94,-0.07,0.02,BBB,Sell,East,Infrastructure,3188
+554,CMP62,Q6,1.84,3.83,0.07,0.01,BBB,Hold,East,Infrastructure,1636
+555,CMP62,Q7,1.84,3.32,-0.02,-0.04,BBB,Hold,East,Infrastructure,3180
+558,CMP63,Q1,2.42,3.38,-0.1,0,A,Hold,South,Metal Fabrication,1450
+559,CMP63,Q2,2.42,3.11,0.03,0.01,AA,Sell,South,Metal Fabrication,1436
+560,CMP63,Q3,2.43,3.8,0.08,0.01,AA,Sell,South,Metal Fabrication,2854
+561,CMP63,Q4,2.42,2.64,0.02,0.01,AA,Hold,South,Metal Fabrication,1450
+562,CMP63,Q5,2.37,1.83,-0.07,0,AA,Hold,South,Metal Fabrication,1447
+563,CMP63,Q6,2.39,1.75,0.02,0.01,AA,Hold,South,Metal Fabrication,2915
+564,CMP63,Q7,2.41,3.21,0.05,0.01,AA,Hold,South,Metal Fabrication,1387
+567,CMP64,Q1,1.45,6.86,0.04,0.02,BB,Strong Sell,South,Automobile,2401
+568,CMP64,Q2,1.43,3.1,-0.02,0,BB,Strong Sell,South,Automobile,2271
+569,CMP64,Q3,1.44,2.41,-0.08,-0.01,BB,Sell,South,Automobile,2216
+570,CMP64,Q4,1.46,3.59,-0.02,-0.02,BBB,Sell,South,Automobile,2333
+571,CMP64,Q5,1.47,4.74,-0.07,-0.05,BB,Hold,South,Automobile,1157
+572,CMP64,Q6,1.47,3.73,-0.08,0.02,BBB,Hold,South,Automobile,2297
+573,CMP64,Q7,1.48,4.75,-0.01,0.02,BB,Sell,South,Automobile,2293
+576,CMP65,Q1,2.2,6.1,0.07,0.01,BB,Hold,South,Automobile,3681
+577,CMP65,Q2,2.17,1.82,-0.04,-0.03,BB,Sell,South,Automobile,6442
+578,CMP65,Q3,2.13,2.61,-0.13,0,BB,Sell,South,Automobile,3204
+579,CMP65,Q4,2.15,3.8,0.02,-0.04,BB,Sell,South,Automobile,3178
+580,CMP65,Q5,2.12,2.38,-0.16,-0.01,BB,Hold,South,Automobile,3007
+581,CMP65,Q6,2.13,3.19,0.07,0,BBB,Hold,South,Automobile,6263
+582,CMP65,Q7,2.11,3.34,-0.07,-0.02,BB,Buy,South,Automobile,3119
+585,CMP66,Q1,2.35,5.88,0.04,0.02,BB,Hold,North,Infrastructure,3776
+586,CMP66,Q2,2.35,2.83,0.08,0.01,BB,Hold,North,Infrastructure,6997
+587,CMP66,Q3,2.32,2.33,-0.04,0.01,BB,Sell,North,Infrastructure,3561
+588,CMP66,Q4,2.31,5.41,0.07,-0.01,BBB,Sell,North,Infrastructure,3779
+589,CMP66,Q5,2.33,2.11,0.03,0,A,Sell,North,Infrastructure,7364
+590,CMP66,Q6,2.34,2.19,0.07,0,A,Sell,North,Infrastructure,3592
+591,CMP66,Q7,2.36,6.51,0.07,0.02,BBB,Sell,North,Infrastructure,3623
+594,CMP67,Q1,0.94,,0.02,0.02,BB,Hold,East,Infrastructure,1741
+595,CMP67,Q2,0.93,,0.01,-0.02,BB,Hold,East,Infrastructure,2649
+596,CMP67,Q3,0.89,,0.02,0,BBB,Hold,East,Infrastructure,2577
+597,CMP67,Q4,0.89,,-0.09,0.01,A,Hold,East,Infrastructure,2418
+598,CMP67,Q5,0.88,,0.03,0,A,Sell,East,Infrastructure,2549
+599,CMP67,Q6,0.88,15.46,-0.14,-0.01,BBB,Hold,East,Infrastructure,2469
+600,CMP67,Q7,0.89,,0.01,-0.03,A,Sell,East,Infrastructure,2379
+603,CMP68,Q1,1.66,3.15,-0.04,-0.05,AA,Sell,West,Infrastructure,7552
+604,CMP68,Q2,1.65,3.95,0.01,-0.01,AA,Sell,West,Infrastructure,3749
+605,CMP68,Q3,1.66,3.14,0.08,0,AA,Sell,West,Infrastructure,7672
+606,CMP68,Q4,1.66,2.71,-0.14,-0.01,AA,Sell,West,Infrastructure,7531
+607,CMP68,Q5,1.66,3.79,0.01,0,A,Sell,West,Infrastructure,7463
+608,CMP68,Q6,1.68,4.19,-0.06,0.01,A,Hold,West,Infrastructure,3817
+609,CMP68,Q7,1.68,3.77,0.08,0.01,AA,Buy,West,Infrastructure,7539
+612,CMP69,Q1,0.78,24.84,-0.16,0,AA,Sell,East,Infrastructure,2578
+613,CMP69,Q2,0.79,,0.05,-0.01,AA,Sell,East,Infrastructure,4198
+614,CMP69,Q3,0.79,,0.01,-0.03,AA,Sell,East,Infrastructure,4263
+615,CMP69,Q4,0.8,,0.02,0.01,AA,Sell,East,Infrastructure,4414
+616,CMP69,Q5,0.78,,0.03,-0.01,AA,Sell,East,Infrastructure,4308
+617,CMP69,Q6,0.8,,-0.12,0.02,AA,Sell,East,Infrastructure,4280
+618,CMP69,Q7,0.79,,-0.06,0.01,AA,Sell,East,Infrastructure,4281
+621,CMP70,Q1,0.84,,-0.08,-0.03,BBB,Sell,West,Automobile,4745
+622,CMP70,Q2,0.83,,-0.11,0.01,BBB,Sell,West,Automobile,7591
+623,CMP70,Q3,0.81,,0.05,-0.02,BBB,Hold,West,Automobile,7669
+624,CMP70,Q4,0.8,,0.08,0.02,BB,Sell,West,Automobile,7810
+625,CMP70,Q5,0.81,,-0.08,0.01,BB,Sell,West,Automobile,7623
+626,CMP70,Q6,0.81,,-0.06,-0.01,BB,Sell,West,Automobile,7617
+627,CMP70,Q7,0.79,,0.04,-0.01,BB,Sell,West,Automobile,7903
+630,CMP71,Q1,1.19,21.53,0.06,-0.02,B,Hold,East,Metal Fabrication,4013
+631,CMP71,Q2,1.2,5.29,0.07,0.02,B,Buy,East,Metal Fabrication,5917
+632,CMP71,Q3,1.18,4.62,-0.09,0,BB,Buy,East,Metal Fabrication,4032
+633,CMP71,Q4,1.17,3.36,-0.02,0.01,BB,Buy,East,Metal Fabrication,5715
+634,CMP71,Q5,1.17,,0.05,0,BB,Buy,East,Metal Fabrication,3903
+635,CMP71,Q6,1.18,3.18,-0.14,0.02,BB,Buy,East,Metal Fabrication,5705
+636,CMP71,Q7,1.19,13.91,0.03,-0.01,BB,Buy,East,Metal Fabrication,4017
+639,CMP72,Q1,0.68,,-0.02,0.01,BBB,Strong Sell,North,Metal Fabrication,1123
+640,CMP72,Q2,0.69,,-0.01,0.01,BBB,Strong Sell,North,Metal Fabrication,1821
+641,CMP72,Q3,0.69,,-0.09,-0.02,A,Sell,North,Metal Fabrication,1751
+642,CMP72,Q4,0.69,,-0.07,-0.04,A,Hold,North,Metal Fabrication,1742
+643,CMP72,Q5,0.68,,0.06,0.01,AA,Buy,North,Metal Fabrication,1778
+644,CMP72,Q6,0.68,,0.06,0.02,AA,Buy,North,Metal Fabrication,1806
+645,CMP72,Q7,0.66,,0.04,-0.01,AA,Buy,North,Metal Fabrication,1784
+648,CMP73,Q1,0.98,,-0.02,0.02,BB,Sell,West,Automobile,3999
+649,CMP73,Q2,0.99,,0.05,-0.02,BBB,Sell,West,Automobile,6091
+650,CMP73,Q3,0.98,,-0.05,0,A,Sell,West,Automobile,5814
+651,CMP73,Q4,1,9.4,-0.01,-0.04,BBB,Sell,West,Automobile,6088
+652,CMP73,Q5,1.01,6.48,-0.03,0,BB,Sell,West,Automobile,6106
+653,CMP73,Q6,0.99,5.73,-0.01,0,BBB,Sell,West,Automobile,5937
+654,CMP73,Q7,0.99,6.7,-0.02,0.02,BBB,Sell,West,Automobile,5961
+657,CMP74,Q1,1.34,7.18,0,-0.04,AAA,Strong Sell,South,Metal Fabrication,2975
+658,CMP74,Q2,1.3,5.9,-0.04,0,AA,Strong Sell,South,Metal Fabrication,2745
+659,CMP74,Q3,1.28,4.55,0,-0.03,AA,Sell,South,Metal Fabrication,2763
+660,CMP74,Q4,1.27,5.95,0.02,0.02,AA,Hold,South,Metal Fabrication,4147
+661,CMP74,Q5,1.26,4.34,0.07,0,AA,Buy,South,Metal Fabrication,2789
+662,CMP74,Q6,1.28,3.46,-0.09,0,AA,Buy,South,Metal Fabrication,4211
+663,CMP74,Q7,1.3,6.31,-0.04,0.02,A,Buy,South,Metal Fabrication,2832
+666,CMP75,Q1,2.27,5.75,0.04,0.02,B,Sell,West,Automobile,1930
+667,CMP75,Q2,2.28,2.25,0.07,0,BB,Sell,West,Automobile,3571
+668,CMP75,Q3,2.27,1.75,0,-0.02,BB,Hold,West,Automobile,1737
+669,CMP75,Q4,2.24,3.26,0.06,-0.03,BBB,Buy,West,Automobile,1714
+670,CMP75,Q5,2.22,2.32,-0.13,0,A,Hold,West,Automobile,1694
+671,CMP75,Q6,2.23,2.14,-0.1,0.01,A,Buy,West,Automobile,3372
+672,CMP75,Q7,2.2,1.95,-0.08,0.01,BBB,Buy,West,Automobile,1683
+525,CMP59,Q4,2.33,2.63,-0.02,0.01,BBB,Hold,North,Metal Fabrication,
+526,CMP59,Q5,2.35,2.77,0.07,0,A,Buy,North,Metal Fabrication,
+527,CMP59,Q6,2.36,2.82,0.05,-0.03,BBB,Hold,North,Metal Fabrication,
+528,CMP59,Q7,2.37,3.37,0.06,-0.02,BB,Sell,North,Metal Fabrication,
+529,CMP59,Q8,2.38,3.54,0.07,0.01,BB,Hold,North,Metal Fabrication,
+530,CMP59,Q9,2.39,1.94,0.07,-0.02,BB,Hold,North,Metal Fabrication,
+531,CMP60,Q1,0.91,,-0.04,0,BB,Buy,West,Infrastructure,
+532,CMP60,Q2,0.9,,-0.07,-0.03,BB,Buy,West,Infrastructure,
+533,CMP60,Q3,0.9,,0.04,0,BB,Hold,West,Infrastructure,
+534,CMP60,Q4,0.92,,-0.01,-0.01,BB,Buy,West,Infrastructure,
+535,CMP60,Q5,0.9,,0.02,0.01,BB,Hold,West,Infrastructure,
+536,CMP60,Q6,0.92,,-0.06,0.02,BB,Buy,West,Infrastructure,
+537,CMP60,Q7,0.94,14.87,-0.1,-0.02,BB,Buy,West,Infrastructure,
+538,CMP60,Q8,0.95,6.8,-0.14,-0.01,BB,Buy,West,Infrastructure,
+539,CMP60,Q9,0.97,17.11,0.07,0.01,BBB,Buy,West,Infrastructure,
+540,CMP61,Q1,2.45,4.67,0.08,0,B,Buy,West,Infrastructure,
+541,CMP61,Q2,2.47,2.54,-0.04,0.01,B,Buy,West,Infrastructure,
+542,CMP61,Q3,2.47,2,0.05,-0.04,B,Hold,West,Infrastructure,
+543,CMP61,Q4,2.47,3.14,0.03,0,B,Hold,West,Infrastructure,
+544,CMP61,Q5,2.47,2.64,0.07,0,B,Hold,West,Infrastructure,
+545,CMP61,Q6,2.49,2.4,0.04,-0.01,B,Buy,West,Infrastructure,
+546,CMP61,Q7,2.48,2.24,0.03,0.02,B,Buy,West,Infrastructure,
+547,CMP61,Q8,2.48,3.56,0.03,0,B,Buy,West,Infrastructure,
+548,CMP61,Q9,2.44,3.8,0.03,0.02,B,Buy,West,Infrastructure,
+549,CMP62,Q1,1.87,6.63,-0.09,0,AA,Strong Sell,East,Infrastructure,
+550,CMP62,Q2,1.88,3.1,0.07,0.02,A,Strong Sell,East,Infrastructure,
+551,CMP62,Q3,1.86,1.9,-0.07,-0.03,AA,Sell,East,Infrastructure,
+552,CMP62,Q4,1.85,2.1,-0.15,0.02,A,Sell,East,Infrastructure,
+553,CMP62,Q5,1.84,1.94,-0.07,0.02,BBB,Sell,East,Infrastructure,
+554,CMP62,Q6,1.84,3.83,0.07,0.01,BBB,Hold,East,Infrastructure,
+555,CMP62,Q7,1.84,3.32,-0.02,-0.04,BBB,Hold,East,Infrastructure,
+556,CMP62,Q8,1.84,7.37,0.04,-0.05,BB,Hold,East,Infrastructure,
+557,CMP62,Q9,1.84,3.9,0.04,-0.03,BB,Buy,East,Infrastructure,
+558,CMP63,Q1,2.42,3.38,-0.1,0,A,Hold,South,Metal Fabrication,
+559,CMP63,Q2,2.42,3.11,0.03,0.01,AA,Sell,South,Metal Fabrication,
+560,CMP63,Q3,2.43,3.8,0.08,0.01,AA,Sell,South,Metal Fabrication,
+561,CMP63,Q4,2.42,2.64,0.02,0.01,AA,Hold,South,Metal Fabrication,
+562,CMP63,Q5,2.37,1.83,-0.07,0,AA,Hold,South,Metal Fabrication,
+563,CMP63,Q6,2.39,1.75,0.02,0.01,AA,Hold,South,Metal Fabrication,
+564,CMP63,Q7,2.41,3.21,0.05,0.01,AA,Hold,South,Metal Fabrication,
+565,CMP63,Q8,2.39,3.65,0.05,0.01,AA,Buy,South,Metal Fabrication,
+566,CMP63,Q9,2.4,1.73,0,-0.04,A,Buy,South,Metal Fabrication,
+567,CMP64,Q1,1.45,6.86,0.04,0.02,BB,Strong Sell,South,Automobile,
+568,CMP64,Q2,1.43,3.1,-0.02,0,BB,Strong Sell,South,Automobile,
+569,CMP64,Q3,1.44,2.41,-0.08,-0.01,BB,Sell,South,Automobile,
+570,CMP64,Q4,1.46,3.59,-0.02,-0.02,BBB,Sell,South,Automobile,
+571,CMP64,Q5,1.47,4.74,-0.07,-0.05,BB,Hold,South,Automobile,
+572,CMP64,Q6,1.47,3.73,-0.08,0.02,BBB,Hold,South,Automobile,
+573,CMP64,Q7,1.48,4.75,-0.01,0.02,BB,Sell,South,Automobile,
+574,CMP64,Q8,1.46,3.72,-0.05,-0.03,BB,Sell,South,Automobile,
+575,CMP64,Q9,1.44,3.38,-0.09,0.02,BB,Sell,South,Automobile,
+576,CMP65,Q1,2.2,6.1,0.07,0.01,BB,Hold,South,Automobile,
+577,CMP65,Q2,2.17,1.82,-0.04,-0.03,BB,Sell,South,Automobile,
+578,CMP65,Q3,2.13,2.61,-0.13,0,BB,Sell,South,Automobile,
+579,CMP65,Q4,2.15,3.8,0.02,-0.04,BB,Sell,South,Automobile,
+580,CMP65,Q5,2.12,2.38,-0.16,-0.01,BB,Hold,South,Automobile,
+581,CMP65,Q6,2.13,3.19,0.07,0,BBB,Hold,South,Automobile,
+582,CMP65,Q7,2.11,3.34,-0.07,-0.02,BB,Buy,South,Automobile,
+583,CMP65,Q8,2.08,2.64,0.08,0.02,BB,Buy,South,Automobile,
+584,CMP65,Q9,2.06,3.25,-0.01,0,BB,Buy,South,Automobile,
+585,CMP66,Q1,2.35,5.88,0.04,0.02,BB,Hold,North,Infrastructure,
+586,CMP66,Q2,2.35,2.83,0.08,0.01,BB,Hold,North,Infrastructure,
+587,CMP66,Q3,2.32,2.33,-0.04,0.01,BB,Sell,North,Infrastructure,
+588,CMP66,Q4,2.31,5.41,0.07,-0.01,BBB,Sell,North,Infrastructure,
+589,CMP66,Q5,2.33,2.11,0.03,0,A,Sell,North,Infrastructure,
+590,CMP66,Q6,2.34,2.19,0.07,0,A,Sell,North,Infrastructure,
+591,CMP66,Q7,2.36,6.51,0.07,0.02,BBB,Sell,North,Infrastructure,
+592,CMP66,Q8,2.34,2.64,0.06,-0.01,BBB,Sell,North,Infrastructure,
+593,CMP66,Q9,2.34,2.12,-0.08,0,BBB,Sell,North,Infrastructure,
+594,CMP67,Q1,0.94,,0.02,0.02,BB,Hold,East,Infrastructure,
+595,CMP67,Q2,0.93,,0.01,-0.02,BB,Hold,East,Infrastructure,
+596,CMP67,Q3,0.89,,0.02,0,BBB,Hold,East,Infrastructure,
+597,CMP67,Q4,0.89,,-0.09,0.01,A,Hold,East,Infrastructure,
+598,CMP67,Q5,0.88,,0.03,0,A,Sell,East,Infrastructure,
+599,CMP67,Q6,0.88,15.46,-0.14,-0.01,BBB,Hold,East,Infrastructure,
+600,CMP67,Q7,0.89,,0.01,-0.03,A,Sell,East,Infrastructure,
+601,CMP67,Q8,0.87,,0.04,0.01,BBB,Sell,East,Infrastructure,
+602,CMP67,Q9,0.83,,0.01,0.02,A,Sell,East,Infrastructure,
+603,CMP68,Q1,1.66,3.15,-0.04,-0.05,AA,Sell,West,Infrastructure,
+604,CMP68,Q2,1.65,3.95,0.01,-0.01,AA,Sell,West,Infrastructure,
+605,CMP68,Q3,1.66,3.14,0.08,0,AA,Sell,West,Infrastructure,
+606,CMP68,Q4,1.66,2.71,-0.14,-0.01,AA,Sell,West,Infrastructure,
+607,CMP68,Q5,1.66,3.79,0.01,0,A,Sell,West,Infrastructure,
+608,CMP68,Q6,1.68,4.19,-0.06,0.01,A,Hold,West,Infrastructure,
+609,CMP68,Q7,1.68,3.77,0.08,0.01,AA,Buy,West,Infrastructure,
+610,CMP68,Q8,1.69,2.89,-0.12,-0.01,AA,Buy,West,Infrastructure,
+611,CMP68,Q9,1.7,3.81,0.03,-0.02,AA,Buy,West,Infrastructure,
+612,CMP69,Q1,0.78,24.84,-0.16,0,AA,Sell,East,Infrastructure,
+613,CMP69,Q2,0.79,,0.05,-0.01,AA,Sell,East,Infrastructure,
+614,CMP69,Q3,0.79,,0.01,-0.03,AA,Sell,East,Infrastructure,
+615,CMP69,Q4,0.8,,0.02,0.01,AA,Sell,East,Infrastructure,
+616,CMP69,Q5,0.78,,0.03,-0.01,AA,Sell,East,Infrastructure,
+617,CMP69,Q6,0.8,,-0.12,0.02,AA,Sell,East,Infrastructure,
+618,CMP69,Q7,0.79,,-0.06,0.01,AA,Sell,East,Infrastructure,
+619,CMP69,Q8,0.77,,-0.13,-0.03,AA,Sell,East,Infrastructure,
+620,CMP69,Q9,0.77,,0.03,0.01,AA,Sell,East,Infrastructure,
+621,CMP70,Q1,0.84,,-0.08,-0.03,BBB,Sell,West,Automobile,
+622,CMP70,Q2,0.83,,-0.11,0.01,BBB,Sell,West,Automobile,
+623,CMP70,Q3,0.81,,0.05,-0.02,BBB,Hold,West,Automobile,
+624,CMP70,Q4,0.8,,0.08,0.02,BB,Sell,West,Automobile,
+625,CMP70,Q5,0.81,,-0.08,0.01,BB,Sell,West,Automobile,
+626,CMP70,Q6,0.81,,-0.06,-0.01,BB,Sell,West,Automobile,
+627,CMP70,Q7,0.79,,0.04,-0.01,BB,Sell,West,Automobile,
+628,CMP70,Q8,0.79,,0.03,0.01,BBB,Sell,West,Automobile,
+629,CMP70,Q9,0.77,,0.07,-0.03,BB,Sell,West,Automobile,
+630,CMP71,Q1,1.19,21.53,0.06,-0.02,B,Hold,East,Metal Fabrication,
+631,CMP71,Q2,1.2,5.29,0.07,0.02,B,Buy,East,Metal Fabrication,
+632,CMP71,Q3,1.18,4.62,-0.09,0,BB,Buy,East,Metal Fabrication,
+633,CMP71,Q4,1.17,3.36,-0.02,0.01,BB,Buy,East,Metal Fabrication,
+634,CMP71,Q5,1.17,,0.05,0,BB,Buy,East,Metal Fabrication,
+635,CMP71,Q6,1.18,3.18,-0.14,0.02,BB,Buy,East,Metal Fabrication,
+636,CMP71,Q7,1.19,13.91,0.03,-0.01,BB,Buy,East,Metal Fabrication,
+637,CMP71,Q8,1.21,2.94,-0.07,0.01,BB,Buy,East,Metal Fabrication,
+638,CMP71,Q9,1.21,7.6,-0.02,0.02,BB,Buy,East,Metal Fabrication,
+639,CMP72,Q1,0.68,,-0.02,0.01,BBB,Strong Sell,North,Metal Fabrication,
+640,CMP72,Q2,0.69,,-0.01,0.01,BBB,Strong Sell,North,Metal Fabrication,
+641,CMP72,Q3,0.69,,-0.09,-0.02,A,Sell,North,Metal Fabrication,
+642,CMP72,Q4,0.69,,-0.07,-0.04,A,Hold,North,Metal Fabrication,
+643,CMP72,Q5,0.68,,0.06,0.01,AA,Buy,North,Metal Fabrication,
+644,CMP72,Q6,0.68,,0.06,0.02,AA,Buy,North,Metal Fabrication,
+645,CMP72,Q7,0.66,,0.04,-0.01,AA,Buy,North,Metal Fabrication,
+646,CMP72,Q8,0.67,,0.04,0,AA,Buy,North,Metal Fabrication,
+647,CMP72,Q9,0.67,,-0.05,-0.01,AA,Buy,North,Metal Fabrication,
+648,CMP73,Q1,0.98,,-0.02,0.02,BB,Sell,West,Automobile,
+649,CMP73,Q2,0.99,,0.05,-0.02,BBB,Sell,West,Automobile,
+650,CMP73,Q3,0.98,,-0.05,0,A,Sell,West,Automobile,
+651,CMP73,Q4,1,9.4,-0.01,-0.04,BBB,Sell,West,Automobile,
+652,CMP73,Q5,1.01,6.48,-0.03,0,BB,Sell,West,Automobile,
+653,CMP73,Q6,0.99,5.73,-0.01,0,BBB,Sell,West,Automobile,
+654,CMP73,Q7,0.99,6.7,-0.02,0.02,BBB,Sell,West,Automobile,
+655,CMP73,Q8,0.96,6.86,0,-0.02,A,Hold,West,Automobile,
+656,CMP73,Q9,0.93,,0.01,0.01,BBB,Buy,West,Automobile,
+657,CMP74,Q1,1.34,7.18,0,-0.04,AAA,Strong Sell,South,Metal Fabrication,
+658,CMP74,Q2,1.3,5.9,-0.04,0,AA,Strong Sell,South,Metal Fabrication,
+659,CMP74,Q3,1.28,4.55,0,-0.03,AA,Sell,South,Metal Fabrication,
+660,CMP74,Q4,1.27,5.95,0.02,0.02,AA,Hold,South,Metal Fabrication,
+661,CMP74,Q5,1.26,4.34,0.07,0,AA,Buy,South,Metal Fabrication,
+662,CMP74,Q6,1.28,3.46,-0.09,0,AA,Buy,South,Metal Fabrication,
+663,CMP74,Q7,1.3,6.31,-0.04,0.02,A,Buy,South,Metal Fabrication,
+664,CMP74,Q8,1.3,6.18,0,-0.02,AA,Buy,South,Metal Fabrication,
+665,CMP74,Q9,1.28,4.96,0.04,0.01,AA,Buy,South,Metal Fabrication,
+666,CMP75,Q1,2.27,5.75,0.04,0.02,B,Sell,West,Automobile,
+667,CMP75,Q2,2.28,2.25,0.07,0,BB,Sell,West,Automobile,
+668,CMP75,Q3,2.27,1.75,0,-0.02,BB,Hold,West,Automobile,
+669,CMP75,Q4,2.24,3.26,0.06,-0.03,BBB,Buy,West,Automobile,
+670,CMP75,Q5,2.22,2.32,-0.13,0,A,Hold,West,Automobile,
+671,CMP75,Q6,2.23,2.14,-0.1,0.01,A,Buy,West,Automobile,
+672,CMP75,Q7,2.2,1.95,-0.08,0.01,BBB,Buy,West,Automobile,
+673,CMP75,Q8,2.21,5.43,0.04,0.01,BBB,Hold,West,Automobile,
+674,CMP75,Q9,2.21,2.6,-0.07,-0.02,BB,Sell,West,Automobile,
