@@ -1,9 +1,0 @@
-Summary
-This project explores EEG data for alertness detection through robust time series analysis and forecasting techniques in R. Initiated the study by cleaning the EEG dataset, including outlier rectification, to ensure accurate analysis. Subsequent exploratory visualization revealed the data’s intricate patterns, leading to the adoption of various forecasting models suitable for the sequential nature of time series data.
-The analytical approach incorporated linear and quadratic models to gasp underlying trends, while an ARIMA model was chosen for its adeptness in addressing the data’s non-stationarity – a characteristic inherent in EEG readings. To smooth short-term volatility and better discern trends, a moving average filter was applied. Also integrated exponential smoothing, leveraging its automated model selection to adjust to the data’s behavior.
-The dataset was divided into training and validation sets, enabling an evaluation of the models’ predictive accuracy against unseen data. The ARIMA model, in particular demonstrated close adherence to the validation data, suggesting its potential utility in real-world alertness detection scenarios.
-Forecast accuracy metrics were calculated, revealing the models’ performance and offering comparative insights. Visual plots were instrumental in forecasts with acual data, illustrating the models’ efficacy and the data’s complexity.
-In essence, the time series analysis illuminates the capability of statistical models to forecast alertness levels from EEG data, with implications for applications that require real-time alertness monitoring. The study’s findings underscore the difference between model selection, data complexity, and forecasting accuracy in the realm of EEG analysis.
-
-Data Set
-This project leverages a time series dataset from the UCI Machine Learning Repository, specifically the EEG Eye state dataset available at https://archive.ics.uci.edu/dataset/264/eeg+eye+state . 
