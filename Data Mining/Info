@@ -1,3 +1,0 @@
-This folder holds my work related to the project I have done in Data Mining
-The SMS Spam detection project is dedicated to developing a model capable of distinguishing between spam and ham messages effectively.
-This project begins with a critical analysis of the dataset, highlighting a notable imbalance that could impact model performance. To mitigate this, comprehensive data preprocessing is employed to cleanse and standardize the dataset, ensuring it is primed for the subsequent stages of analysis. Additionally, the project leverages visualization tools post-preprocessing to gain deeper insights into the data’s characteristics, setting a solid foundation for the application of machine learning algorithms aimed at spam detection with high accuracy.
